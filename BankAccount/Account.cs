@@ -9,7 +9,9 @@ namespace BankAccount
     public abstract class Account
     {
         // fields
+
         // properties
+
         // constructors
         // none because this is abstract
 
@@ -22,7 +24,7 @@ namespace BankAccount
 
         public virtual void Deposit ()
         {
-            Console.WriteLine("How have successfully deposited funds into your account.");
+            Console.WriteLine("You have successfully deposited funds into your account.");
 
         }
         
